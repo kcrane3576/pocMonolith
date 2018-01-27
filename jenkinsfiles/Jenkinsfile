@@ -3,5 +3,5 @@
 @Library("jenkinsfiles") _
 
 
-checkoutSCM.gitCheckout()
+checkoutSCM.checkout()
 
