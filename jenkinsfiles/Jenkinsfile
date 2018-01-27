@@ -3,5 +3,8 @@
 @Library("jenkinsfiles") _
 
 
-checkoutSCM.checkout()
+//checkoutSCM.checkout()
+
+def pipeline = new pipelineGeneral()
+pipeline.checkout()
 
