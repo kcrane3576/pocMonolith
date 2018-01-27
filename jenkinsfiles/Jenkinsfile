@@ -6,6 +6,8 @@
 //checkoutSCM.checkout()
 
 //def pipeline = new pipelineGeneral()
-def pipeline = new main.groovy.org.cranek.v1.PipelineGeneral()
+
+def pipeline = new main.PipelineGeneral()
+//def pipeline = new main.groovy.org.cranek.v1.PipelineGeneral()
 pipeline.checkout()
 
