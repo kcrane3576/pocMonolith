@@ -2,7 +2,5 @@
 
 @Library("jenkinsfiles") _
 
-sh("ls -a")
-
-//scm.checkout()
+scm.checkout()
 
