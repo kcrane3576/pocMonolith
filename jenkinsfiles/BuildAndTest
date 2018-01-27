@@ -2,6 +2,7 @@
 
 @Library("jenkinsfiles") _
 
+sh("ls -a")
 
 scm.gitCheckout()
 
