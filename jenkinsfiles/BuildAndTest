@@ -2,7 +2,15 @@
 
 @Library("jenkinsfiles") _
 
-sh("ls -a")
+node{
+    stage("checkout"){
+        sh(ls -a)
 
-scm.gitCheckout()
+//            checkout scm
+    }
+}
+
+//sh("ls -a")
+//
+//scm.gitCheckout()
 
