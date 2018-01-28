@@ -2,15 +2,6 @@
 
 @Library("jenkinsfiles") _
 
-
-//checkoutSCM.checkout()
-
-//def pipeline = new PipelineGeneral()
-//def pipeline = new main.PipelineGeneral()
-
-//def pipeline = new org.cranek.v1.PipelineGeneral()
-
-
 def pipeline = new main.groovy.PipelineGeneral()
 pipeline.checkout()
 
