@@ -11,6 +11,6 @@
 //def pipeline = new org.cranek.v1.PipelineGeneral()
 
 
-def pipeline = new src.main.groovy.com.mycompany.mypipeline.PipelineGeneral()
+def pipeline = new src.main.groovy.PipelineGeneral()
 pipeline.checkout()
 
