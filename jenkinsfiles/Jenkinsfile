@@ -8,8 +8,7 @@ def pipeline = new main.groovy.pipelineGeneral()
 
 println(pipeline)
 
-println("sanity check 2")
-pipeline.checkout("ip-service1")
+pipeline.checkout('ip-service1')
 
 println("sanity check 3")
 
