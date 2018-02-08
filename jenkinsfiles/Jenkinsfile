@@ -5,9 +5,8 @@
 
 
 def pipeline = new main.groovy.pipelineGeneral()
-
-//pipeline.checkout('ip-service1')
-pipeline.checkout()
+def serviceName = "ip-service1"
+pipeline.checkout(serviceName)
 
 println("sanity check 3")
 
