@@ -2,6 +2,10 @@
 
 @Library("jenkinsfiles") _
 
+
+
 def pipeline = new main.groovy.pipelineGeneral()
-pipeline.checkout("ip-service1")
+
+println("sanity check 2")
+//pipeline.checkout("ip-service1")
 
