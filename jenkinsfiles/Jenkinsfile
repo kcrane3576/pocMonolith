@@ -3,5 +3,5 @@
 @Library("jenkinsfiles") _
 
 def pipeline = new main.groovy.PipelineGeneral()
-pipeline.checkout()
+pipeline.checkout("ip-service1")
 
